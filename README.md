@@ -52,7 +52,7 @@ This project aims to classify Arabic fonts using Local Phase Quantization (LPQ) 
 
 ## Training
 
-- Train the SVM classifier using the extracted LPQ features:
+- Train the SVM classifier using the extracted LPQ features after preprocessing the data set:
 
   ```bash
   python train.py
